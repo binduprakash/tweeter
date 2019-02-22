@@ -1,0 +1,104 @@
+.new-tweet{
+  background-color: #F2F2F2;
+  border-radius: 10px;
+  padding: 10px;
+  display: none;
+}
+
+#compose-tweet{
+  border-bottom: 1px solid black;
+  margin: 0;
+}
+
+#textbox{
+  width:370px;
+  height: 49px;
+}
+
+.counter{
+  float: right;
+}
+
+.tweet{
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  margin-top: 10px;
+  opacity: 0.7;
+}
+
+.tweet:hover{
+  border: 1px solid grey;
+  opacity: 1;
+}
+
+article.tweet header{
+  background-color: #F2F2F2;
+  padding: 6px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 53px;
+}
+
+article.tweet .tweet-body{
+  padding-left:  6px;
+  padding-right: 6px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #F2F2F2;
+  clear: both;
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+article.tweet .tweet-footer{
+  font-size: 70%;
+  padding: 6px;
+  clear: both;
+  height: 25px;
+}
+
+article.tweet .tweet-footer .tweet-creation{
+  float: left;
+}
+
+article.tweet .tweet-footer .tweet-icons{
+  float: right;
+  display: none;
+}
+
+article.tweet .tweet-footer .tweet-icons i {
+  margin-right: 3px;
+}
+
+article.tweet:hover .tweet-footer .tweet-icons{
+  display: block;
+}
+
+article.tweet header .tweet-avatar{
+  float: left;
+}
+
+article.tweet header .tweet-header-name{
+  float: left;
+  font-weight: bold;
+  font-size: 150%;
+  padding: 6px;
+}
+
+article.tweet header .tweet-handler{
+  float: right;
+}
+
+.new-tweet .tweet-form .error-message{
+  border: 1px solid red;
+  padding: 5px;
+  text-align: center;
+  color: red;
+  background-color: #FFA07A;
+  display: none;
+  margin-bottom: 3px;
+}
+
+
+
+
