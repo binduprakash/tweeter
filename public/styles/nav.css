@@ -2,6 +2,7 @@
   height: 80px;
   width: 100%;
   position: fixed;
+  z-index: 1000;
   left:0;
   top:0;
   background-color: #00a087;
@@ -35,7 +36,7 @@
   border: 1px solid black;
 }
 
-#nav-bar .compose-button:hover{
+#nav-bar .compose-button:hover {
   background-color: white;
   color: black;
   cursor: pointer;
